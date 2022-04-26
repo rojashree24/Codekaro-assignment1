@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: whitesmoke; */
+}
+.title {
+  width: 100%;
+  height: 15vh;
+  /* background-color: aqua; */
+}
+.round {
+  width: 100px;
+  height: 100px;
+  /* background-color: aquamarine; */
+  margin-left: 470px;
+  border-radius: 50%;
+}
+.round > img {
+  width: 100px;
+  height: 100px;
+}
+.text {
+  width: 80%;
+  height: 50px;
+  /* background-color: aquamarine; */
+  margin-left: 397px;
+  margin-top: 20px;
+}
+.text > h2 {
+  width: 100%;
+  height: 100px;
+}
+.text1 {
+  width: 80%;
+  height: 48px;
+  /* background-color: aquamarine; */
+  margin-left: 280px;
+  margin-top: 1px;
+}
+.text1 > h5 {
+  width: 100%;
+  height: 100px;
+}
+.text1 > h5 a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 200px;
+  /* background-color: aqua; */
+  display: flex;
+}
+.container:hover {
+  cursor: pointer;
+}
+.cont-1 {
+  width: 40%;
+  height: 200px;
+  /* background-color: aqua; */
+  border-radius: 20px;
+  border: 1px solid rgb(219, 214, 214);
+  margin-left: 100px;
+  display: flex;
+}
+.cont-2 {
+  width: 40%;
+  height: 200px;
+  /* background-color: aqua; */
+  border-radius: 20px;
+  margin-left: 30px;
+  border: 1px solid rgb(219, 214, 214);
+  display: flex;
+  /* margin-top: 20px; */
+}
+.name {
+  width: 60%;
+  height: 50px;
+  /* background-color: blue; */
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.name > h3 {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.name > h4 {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+/* .sentence {
+  width: 60%;
+  height: 100px;
+   background-color: blueviolet; 
+  margin-left: 20px;
+  margin-top: 10px; 
+}*/
+.name > h5 {
+  width: 100%;
+  height: 80px;
+  font-size: 14px;
+  font-weight: 100;
+}
+.img1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blanchedalmond;
+  margin-left: 20px;
+  margin-top: 32px;
+}
+.img1 > img {
+  width: 100%;
+  height: 100px;
+}
